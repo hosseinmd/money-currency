@@ -1,0 +1,30 @@
+{
+    "name": "money-currency",
+    "version": "0.0.1",
+    "description": " currencies ",
+    "homepage": "http://github.com/hosseinmd/money-currency",
+    "author": "Hossein Mohammadi <hosseinm.developer@gmail.com> ",
+    "contributors": [],
+    "keywords": [
+        "money-currency"
+    ],
+    "main": "src/index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hosseinmd/money-currency.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hosseinmd/money-currency/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "devDependencies": {
+        "jest": "^24.7.1"
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}
