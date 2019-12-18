@@ -17,9 +17,9 @@ npm install money-currency --save
 ## Usage
 
 ```
-var MoneyCurrency = require('money-currency');
+const MoneyCurrency = require('money-currency');
 
-mc = new MoneyCurrency('USD');
+mc = MoneyCurrency('USD');
 console.log(mc.moneyFormat(13)) // $13
 console.log(mc.moneyWithCurrencyFormat(13)) // $13 USD
 ```
@@ -32,6 +32,4 @@ npm test
 
 ## Contributing
 
-Contributions to the project are welcome. Feel free to fork and improve.
-I do my best accept pull requests in a timely manor,
-especially when tests and updated docs are included.
+Feel free to fork and improve.

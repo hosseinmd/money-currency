@@ -5,8 +5,8 @@ const MoneyCurrency = require("../src");
 test("should Convert  numbers to currency", () => {
   console.log(
     MoneyCurrency.currencyFormats().map(currency => {
-      return new MoneyCurrency(currency).moneyFormat("12345609");
+      return MoneyCurrency(currency).moneyFormat("12345609");
     }),
   );
-  expect(new MoneyCurrency("IRR").moneyFormat("12345609")).toBe("12345609 ﷼");
+  expect(MoneyCurrency("IRR").moneyFormat("12345609")).toBe("12345609 ﷼");
 });
